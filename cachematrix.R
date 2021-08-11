@@ -1,4 +1,4 @@
-##Enter matrix in function 'makeCacheMatrix'
+##Enter matrix in function 'makeCacheMatrix'.
 
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
@@ -14,7 +14,7 @@ makeCacheMatrix <- function(x = matrix()) {
        getinv = getinv)
 }
 
-## function cachesolve will check cached data for inverser of matrix, else inverse the matrix
+## The function 'cachesolve' will check cached data for inverse of matrix, else inverse the matrix.
 
 cacheSolve <- function(x, ...) {
   inv <- x$getinv()
